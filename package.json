@@ -1,14 +1,15 @@
 {
-  "name": " ",
+  "name": "html5模板文件",
   "version": "0.0.1",
-  "description": "",
-  "keywords": "",
-  "license": "",
-  "author": "",
+  "description": "本仓库用于学习和演示各种示例项目",
+  "keywords": "html5",
+  "license": "MIT",
+  "author": "nikun2008@126.com",
   "scripts": {
     "build": "parcel build index.html",
     "dev": "parcel index.html --open",
     "dev-throttle": "parcel throttle.html --open",
+    "dev-vue3": "parcel vue3.html --open",
     "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
