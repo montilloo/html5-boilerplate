@@ -7,9 +7,10 @@
   "author": "nikun2008@126.com",
   "scripts": {
     "build": "parcel build index.html",
-    "dev": "parcel index.html --open",
-    "dev-throttle": "parcel throttle.html --open",
-    "dev-vue3": "parcel vue3.html --open",
+    "dev": "parcel index.html --open --port 1234",
+    "dev-throttle": "parcel throttle.html --open --port 1236",
+    "dev-vue2": "parcel vue2.html --open --port 1235",
+    "dev-vue3": "parcel vue3.html --open --port 1237",
     "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
