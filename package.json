@@ -5,9 +5,16 @@
   "keywords": "html5",
   "license": "MIT",
   "author": "nikun2008@126.com",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "source": "index.html",
+  "engines": {
+    "node": ">= 12"
+  },
   "scripts": {
     "build": "parcel build index.html",
     "dev": "parcel index.html --open --port 1234",
+    "dev-playground": "parcel playground.html --open --port 1238",
+    "dev-canvas": "parcel canvas.html --open --port 1239",
     "dev-throttle": "parcel throttle.html --open --port 1236",
     "dev-vue2": "parcel vue2.html --open --port 1235",
     "dev-vue3": "parcel vue3.html --open --port 1237",
@@ -22,9 +29,13 @@
   "devDependencies": {
     "@babel/core": "^7.21.0",
     "@babel/plugin-transform-runtime": "^7.21.0",
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.58.3"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3",
     "d3-hierarchy": "^3.1.2"
   }
 }
