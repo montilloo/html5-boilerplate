@@ -40,5 +40,3 @@ jobs:
             username: ${{ secrets.SSH_USERNAME }}
     # SSH User password  用户密码
             password: ${{ secrets.SSH_PASSWORD }}
-    # key  密匙
-            key: ${{ secrets.SSH_DEPLOY_KEYS }}
